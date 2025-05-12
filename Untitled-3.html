@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Easy</title>
+    <style>
+        body {
+            color: red; /* Text color */
+            background-image: url('imagesi.jpg'); /* Background image */
+            background-size: cover; /* Cover the entire page */
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white; /* Button text color */
+            background-color: red; /* Button color */
+            text-align: center;
+            text-decoration: none; /* Remove underline */
+            border-radius: 5px; /* Rounded corners */
+            border: none; /* Remove border */
+            cursor: pointer; /* Pointer cursor on hover */
+            margin: 10px; /* Space between buttons */
+        }
+        .button:hover {
+            background-color: dimgrey; /* Darker shade on hover */
+        }
+        h1, p {
+            text-align: center; /* Centered text */
+        }
+    </style>
+</head>
+<body>
+    <h1>The Roast Bot</h1>
+    <br>
+    <h2>YOUR TURN <br>Choose a roast sentence</h2>
+    
+    <button class="button" onclick="goToWebsite()">Go to Website</button>
+    
+    <p>EVEN YOUR SHADOWES DITCHES U IN GROUP PHOTOS</p>
+    <button class="button" onclick="goToWebsite()">Go to Website</button>
+    <p>U FAILED A CAPTCHA MEANT FOR ROBOTS</p>
+    <button class="button" onclick="goToWebsite()">Go to Website</button>
+    <p>YOUR BODY CRIES FOR STYLE</p>
+
+    <script>
+        function goToWebsite() {
+            window.location.href = "untitled-1.html"; // Use a relative path
+        }
+    </script>
+</body>
+</html>
